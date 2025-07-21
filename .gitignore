@@ -1,0 +1,11 @@
+# Ignorar todos los archivos y directorios
+*
+
+# Excepciones: no ignorar archivos con extensión .c
+!*.c
+
+# No ignorar el propio archivo .gitignore
+!.gitignore
+
+# No ignorar directorios (para que Git pueda "entrar" en ellos y encontrar los .c)
+!*/
