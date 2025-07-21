@@ -9,3 +9,6 @@
 
 # No ignorar directorios (para que Git pueda "entrar" en ellos y encontrar los .c)
 !*/
+
+# No ignorar readme's
+!*.md
